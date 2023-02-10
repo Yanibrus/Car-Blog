@@ -1,0 +1,370 @@
+@import url(font.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT_Sans';
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+}
+
+body {
+    font-family: "PT Sans", "Lato";
+    font-weight: 400;
+}
+
+/* ===header=== */
+
+.header {
+    background: #000000;
+    padding: 35px 0;
+    margin-bottom: 30px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__logo {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.header__logo:hover {
+    color: #4A90E2;
+}
+
+.header__logo:hover span {
+    background: #FFFFFF;
+}
+
+
+.header__logo span {
+    background: #4A90E2;
+    border-radius: 3px;
+    padding: 3px 6px;
+    margin-left: 6px;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+
+.header__nav-link {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    transition: .4s;
+}
+
+.header__nav-link:hover {
+    background: #4A90E2;
+    padding: 36px 10px;
+}
+
+/* ===main=== */
+.top__item {
+    background: url(../image/top/1.png)center center / cover no-repeat;
+    max-width: 370px;
+    width: 100%;
+    height: 265px;
+    border-radius: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left {
+    max-width: 370px;
+    width: 100%;
+    height: 560px;
+
+}
+
+.top__item-btn {
+
+    background: #4A90E2;
+    border-radius: 3px;
+    padding: 4px 12px;
+    max-width: 62px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 30px 0 0 20px;
+    transition: .4s;
+
+
+}
+
+.top__item-btn:hover {
+    background: #FFFFFF;
+    color: #4A90E2;
+}
+
+.top__item-txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0 0 6px 20px;
+}
+
+.top__item-text {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 0 0 23px 20px;
+
+}
+
+.item1 {
+    background: url(../image/top/2.png)center center / cover no-repeat;
+}
+
+.item2 {
+    background: url(../image/top/3.png)center center / cover no-repeat;
+}
+
+.item3 {
+    background: url(../image/top/4.png)center center / cover no-repeat;
+}
+
+.item4 {
+    background: url(../image/top/5.png)center center / cover no-repeat;
+}
+
+
+.top__items {
+    display: flex;
+    gap: 30px;
+
+}
+
+.top__item-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.news {
+    margin-top: 80px;
+
+}
+.news .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news__left-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.news__left-item img {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.news__item-box {
+    max-width: 730px;
+    width: 100%;
+    /* height: 250px; */
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: -130px;
+    z-index: 1;
+
+}
+
+
+.news__item-title {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 28px;
+    color: #171717;
+    margin: 20px 0 15px;
+
+}
+
+.news__item-txt {
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.news__item-text {
+    font-family: 'PT Sans';
+    font-size: 15px;
+    line-height: 24px;
+    color: #666666;
+    width: 614px;
+}
+
+.news__right-first {
+    max-width: 270px;
+    margin-bottom: 60px;
+}
+
+.news__right-first img {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.first__content-title {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #171717;
+    margin-bottom: 8px;
+}
+
+.first__content-txt {
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #999999;
+    margin-bottom: 15px;
+}
+
+.first__content-text {
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.content__btn {
+    background: #040D1F;
+    border-radius: 5px;
+    width: 270px;
+    height: 50px;
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news__right-item {
+    max-width: 270px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.news__right-title {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #171717;
+    margin-bottom: 23px;
+}
+
+.news__right-item img {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.item__content {
+    max-width: 270px;
+    width: 100%;
+}
+
+.item__content-title {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #171717;
+    margin-bottom: 10px;
+}
+
+.item__content-txt {
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+}
+
+.item__content-btn {
+    padding: 3px 8px;
+    background: #4A90E2;
+    border-radius: 3px;
+    width: 60px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 20px;
+    top: 65px;
+}
+
+.news__right-title {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #171717;
+}
+
+.news__right-insta {
+    display: grid;
+    height: 130px;
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: repeat(3, 130px);
+    gap: 10px;
+    
+}
+
+
+
+
+/* ===main=== */

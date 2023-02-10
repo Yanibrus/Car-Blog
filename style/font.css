@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'PT_Sans';
+    src: url(../fonts/PT_Sans/PTSans-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+    font-weight: 400;
+}
